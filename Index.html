@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Apple Captures</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#0b0b0d;color:white;line-height:1.6}
+header{min-height:90vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;background:linear-gradient(135deg,#0b0b0d,#241010)}
+.logo{font-size:80px;margin-bottom:15px}
+h1{font-size:clamp(42px,10vw,80px);letter-spacing:3px}
+.red{color:#e50914}
+.tagline{font-size:18px;letter-spacing:3px;color:#ccc;margin:15px 0 30px}
+.btn{display:inline-block;background:#e50914;color:white;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:bold}
+section{padding:70px 20px;max-width:1100px;margin:auto}
+h2{text-align:center;font-size:38px;margin-bottom:40px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#17171a;border:1px solid #333;border-radius:18px;padding:30px;text-align:center}
+.card h3{font-size:23px;margin-bottom:10px;color:#fff}
+.card p{color:#bbb}
+.booking{background:#151518;border-radius:20px;text-align:center;padding:45px 25px}
+footer{text-align:center;padding:30px;background:#050506;color:#888}
+input,textarea,select{width:100%;padding:14px;margin:8px 0;border-radius:10px;border:0;font-size:16px}
+form{max-width:600px;margin:auto}
+button{border:0;cursor:pointer;font-size:16px}
+</style>
+</head>
+
+<body>
+
+<header>
+<div>
+<div class="logo">🍎📷</div>
+<h1><span class="red">RED APPLE</span><br>CAPTURES</h1>
+<p class="tagline">CINEMATIC VIDEOGRAPHY & PHOTOGRAPHY</p>
+<a class="btn" href="#booking">BOOK A SHOOT</a>
+</div>
+</header>
+
+<section>
+<h2>Our Services</h2>
+
+<div class="cards">
+<div class="card">
+<h3>📸 Photography</h3>
+<p>Professional portraits, events, weddings and creative photography.</p>
+</div>
+
+<div class="card">
+<h3>🎥 Videography</h3>
+<p>Beautiful videos for events, brands, social media and special moments.</p>
+</div>
+
+<div class="card">
+<h3>🎬 Cinematography</h3>
+<p>Cinematic storytelling with a professional visual style.</p>
+</div>
+
+<div class="card">
+<h3>💻 Editing</h3>
+<p>Professional photo and video editing for your personal or business projects.</p>
+</div>
+</div>
+</section>
+
+<section id="booking">
+<div class="booking">
+<h2>Online Booking</h2>
+<p>Tell us what you need and we'll get in touch with you.</p>
+
+<form action="mailto:redapplecaptures@gmail.com" method="post" enctype="text/plain">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="tel" name="Phone" placeholder="Phone Number" required>
+
+<select name="Service" required>
+<option value="">Select Service</option>
+<option>Photography</option>
+<option>Videography</option>
+<option>Cinematography</option>
+<option>Editing</option>
+</select>
+
+<textarea name="Message" rows="5" placeholder="Tell us about your project"></textarea>
+
+<button class="btn" type="submit">SEND BOOKING REQUEST</button>
+
+</form>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Red Apple Captures</p>
+<p>Photography • Videography • Cinematography • Editing</p>
+</footer>
+
+</body>
+</html>
